@@ -1,17 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import {BrowserRouter, Switch, Route} from 'react-router-dom';
+import { Maps } from './components/mindMaps/maps';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import GlobalStyle from "./styles/global";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter>
+  <Switch>
+    <Route exact path='/' component={App}/>
+    <Route exact path='/Maps' component={Maps}/>
+  </Switch>
+  <GlobalStyle/>
+ </BrowserRouter>,
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
