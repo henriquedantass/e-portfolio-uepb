@@ -1,4 +1,3 @@
-import * as images from '../assets';
 
 const DataLearned = [
   {

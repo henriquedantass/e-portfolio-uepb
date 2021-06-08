@@ -25,10 +25,6 @@ export const About = () => {
         setIsOpen(true);
       }
 
-    function openModal (){
-        setIsOpen(true);
-    }
-
     function closeModal(){
         setIsOpen(false);
     }
