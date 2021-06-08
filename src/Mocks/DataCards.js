@@ -4,7 +4,7 @@ const DataCards = [
   {
     title: 'Mapas Mentais',
     icone: images.mindMap,
-    to: '/Maps'
+    to: '/Mapas'
   },
   {
     title: 'Quiz',

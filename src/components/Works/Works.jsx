@@ -2,15 +2,15 @@ import React from 'react';
 import { Container, Content, Section, SectionBox } from './styles';
 import { Navigation } from '../Navigation/Nagivation';
 import { Link } from 'react-router-dom';
-import DataHome from '../../Mocks/DataHome';
+import DataCards from '../../Mocks/DataCards';
 
-export const Home = () => {
+export const Works = () => {
     return (
         <Container>
             <Navigation/>
             <Content>
                 <Section>
-                    {DataHome.map(item => {
+                    {DataCards.map(item => {
                         return (
                             <Link to={item.to}>
                             <SectionBox>

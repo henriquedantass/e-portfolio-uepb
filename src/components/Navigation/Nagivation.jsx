@@ -7,12 +7,11 @@ import { Link } from 'react-router-dom';
 export const Navigation = () => {
     return (
         <Container>
-           <Logo >
-               <img src={images.Logo} alt="Logo" className="logo"/>
-               <Link to='/Home'>
-                <img src = {images.home} alt="Home"/>
-               </Link>
-           </Logo>
+             <Link to='/Home'>
+                <Logo >
+                     <img src={images.Logo} alt="Logo" className="logo"/>
+                 </Logo>
+           </Link>
         </Container>
     )
 }

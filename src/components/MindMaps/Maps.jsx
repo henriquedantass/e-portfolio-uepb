@@ -11,14 +11,12 @@ export const Maps = () => {
           position: 'absolute',
           top: '75%',
           zIndex: 2,
+          background: 'transparent',
         };
         const stylesImage = {
           width: '50px',
           height: '50px',
-          border: '1px solid white',
-          borderRadius: '25px',
-          background: 'red;'
-,        };
+        };
         if (direction === 'prev') {
           styles.left = '8%';
         } else {

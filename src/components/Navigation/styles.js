@@ -12,11 +12,6 @@ export const Logo = styled.div`
     .logo {
         widht: 150px;
         height: 150px;
-        margin-right: 50px;
-    }
-    span {
-        margin-top: 10px;
-
     }
 
 `;
