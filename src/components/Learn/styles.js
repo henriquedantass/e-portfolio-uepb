@@ -16,7 +16,7 @@ export const Title = styled.div`
     align-items: center;
     h1 {
         font-weight: bold;
-        border-bottom: 2px solid yellow;
+        border-bottom: 2px solid #EDD000;
     }
     img {
         width: 30px;
@@ -30,7 +30,7 @@ export const ContainerContent = styled.div`
     width: 400px;
     height: 300px;
     padding: 20px;
-    border: 1px solid gray;
+    border: 1px solid #EDD000;
     border-radius: 15px;
     margin-top: 20px;
 `;
