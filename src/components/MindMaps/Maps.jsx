@@ -61,7 +61,6 @@ export const Maps = () => {
                         <BoxContent>
                             <h3>{item.title}</h3>
                             <p>{item.description}</p>
-                            <a>Link </a>
                         </BoxContent>
                         <BoxImage>
                             <img src={item.icone} alt="Logo" />
