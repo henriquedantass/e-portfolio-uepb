@@ -9,10 +9,12 @@ const DataHome = [
   {
     title: 'Registros das aulas',
     icone: images.register,
+    to: '/Resumos'
   },
   {
     title: 'Listas interessantes',
     icone: images.sociais,
+    to: '/Listas'
   },
   {
     title: 'Aprendizados',

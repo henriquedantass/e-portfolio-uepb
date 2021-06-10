@@ -107,6 +107,7 @@ export const About = () => {
           contentLabel="Example Modal"
         >
             <Carousel    
+            infiniteLoop={true}
             renderArrowPrev={renderArrow('prev')}
             renderArrowNext={renderArrow('next')}
             selectedItem={thumbActive}

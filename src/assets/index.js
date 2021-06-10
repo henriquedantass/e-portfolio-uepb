@@ -10,13 +10,36 @@ import register from './icons/register.svg'
 import sociais from './icons/sociais.svg'
 import cerebro from './icons/cerebro.svg'
 import aboutus from './icons/aboutus.svg'
-import close from './icons/close.svg';
+import close from './icons/close.svg'
+import youtube from './icons/youtube.svg'
+import instagram from './icons/instagram.svg'
+import website from  './icons/global.svg'
 import valnezfoto from './images/valnezfoto.png'
 import galegofoto from './images/galegofoto.png'
 import juniorfoto from './images/juniorfoto.png'
 import rafaelfoto from './images/rafaelfoto.png'
+import instagram1 from './images/instagram1.png'
+import instagram2 from './images/instagram2.png'
+import instagram3 from './images/instagram3.png'
+import instagram4 from './images/instagram4.png'
+import site1 from './images/site1.png'
+import site2 from './images/site2.png'
+import site3 from './images/site3.png'
+import site4 from './images/site4.png'
+
 
 export {
+    site1,
+    site2,
+    site3,
+    site4,
+    instagram1,
+    instagram2,
+    instagram3,
+    instagram4,
+    youtube,
+    instagram,
+    website,
     close,
     rafaelfoto,
     juniorfoto,

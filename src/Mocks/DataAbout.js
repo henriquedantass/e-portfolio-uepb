@@ -29,8 +29,6 @@ const DataAbout = [
     age: '22 anos',
     icone: images.valnezfoto,
   },
-
-
 ];
 
 export default DataAbout;

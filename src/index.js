@@ -6,6 +6,8 @@ import { Works } from './components/Works/Works';
 import { Home } from './components/Home/Home';
 import { Learned } from './components/Learn/Learned';
 import { About } from './components/About/About';
+import { Resume } from './components/Resumes/Resumes';
+import { Medias } from './components/SocialMedias/Medias';
 import App from './App';
 import GlobalStyle from "./styles/global";
 
@@ -18,6 +20,8 @@ ReactDOM.render(
     <Route exact path='/Home' component={Home}/>
     <Route exact path='/Aprendizado' component={Learned}/>
     <Route exact path='/Sobre' component={About}/>
+    <Route exact path='/Resumos' component={Resume}/>
+    <Route exact path='/Listas' component={Medias}/>
   </Switch>
   <GlobalStyle/>
  </BrowserRouter>,

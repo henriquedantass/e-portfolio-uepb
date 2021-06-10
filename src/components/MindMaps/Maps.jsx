@@ -54,6 +54,7 @@ export const Maps = () => {
             renderArrowNext={renderArrow('next')}
             showThumbs={false}
             showStatus={false}
+            infiniteLoop={true}
             >
                 {DataMaps.map( item => {
                     return (
