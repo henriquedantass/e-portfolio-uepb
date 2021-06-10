@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import { Carousel as CarouselContent } from 'react-responsive-carousel';
-import { FiChevronDown } from 'react-icons/fi';
 
 export const Container = styled.div`
     padding: 0 5rem;

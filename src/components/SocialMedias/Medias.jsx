@@ -78,7 +78,7 @@ export const Medias = () => {
                 <Infos>
                   <Title>
                   <span>{content.title}</span>
-                  <a href={content.link} target="_blank"> <img src={item.icone} alt="icone" /> </a>
+                  <a href={content.link}> <img src={item.icone} alt="icone" /> </a>
                  </Title>  
                   <p>{content.description}</p>
                 </Infos>
