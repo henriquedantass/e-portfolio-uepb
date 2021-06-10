@@ -25,11 +25,12 @@ export const Title = styled.div `
 
 export const Content = styled.div`
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
+    margin: 20px auto;
     flex-direction: column;
     padding: 2rem 5rem;
+    border: 1px solid yellow;
+    overflow-y: auto;
+    height: 400px;
 
     h1 {
         font-size: 25px;
@@ -42,5 +43,10 @@ export const Content = styled.div`
         padding: 0 5rem;
     }
 
+    span {
+        text-align: right;
+        margin-top: 10px;
+
+    }
 
 `;

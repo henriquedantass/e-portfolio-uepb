@@ -1,5 +1,6 @@
 import { Container, Title, Content} from './styles';
 import {Navigation} from '../Navigation/Nagivation';
+import  DataResume  from '../../Mocks/DataResume';
 import * as images from '../../assets';
 
 export const Resume = () => {
@@ -11,15 +12,16 @@ export const Resume = () => {
             <span>Registro das Aulas</span>
             <img src= {images.register} alt="Icon" />
             </Title>
+            {DataResume.map( item => (
+
             <Content>
-                <h1>Nome da Aula</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing 
-                    and typesetting industry. 
-                    Lorem Ipsum has been the industry's s
-                    tandard dummy text ever since the 1500s,
-                     when an unknown printer took a galley 
-                     of type and scrambled it to make</p>
+                    <>
+                    <h1>{item.title}</h1>
+                    <p>{item.description}</p>
+                    <span>{item.actor}</span>
+                    </>
             </Content>
+                ))}
         </Container>
         </>
     )

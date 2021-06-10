@@ -3,10 +3,10 @@ import { Carousel as CarouselContainer} from 'react-responsive-carousel';
 
 
 export const Carousel = styled(CarouselContainer)`
-    widht: 200px;
+    widht: 400px;
         
     .carousel-slider {
-        widht: 200px;
+        widht: 400px;
     }
 `;
 export const Container = styled.div`
@@ -39,8 +39,6 @@ export const BoxGrid = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 `;
 
 
@@ -69,7 +67,7 @@ export const ModalContainer = styled.div`
     flex-direction: column;
     align-items: center;
     border: 2px solid yellow;
-    height: 70vh;
+    height: 90vh;
     border-radius: 20px;
 `;
 
@@ -89,8 +87,8 @@ export const DescriptionContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
-    text-align: left;
+    overflow-y: auto;
+    padding: 10px 60px;
 `;
 
 

@@ -15,7 +15,7 @@ export const Learned = () => {
            {DataLearned.map(item => {
                return (
                 <ContainerContent>
-                    <Description>
+                    <Description className='container'>
                         <p>{item.description}</p>
                         <span>{item.title}</span>
                     </Description>

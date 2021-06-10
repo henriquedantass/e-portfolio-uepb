@@ -9,6 +9,18 @@ export const Container = styled.div`
     padding: 0 2rem;
     padding-bottom: 50px;
     height: 100vh;
+
+    .container::-webkit-scrollbar-track {
+        background-color: #F4F4F4;
+    }
+    .container::-webkit-scrollbar {
+        width: 6px;
+        background: #EDD000;
+    }
+    .container::-webkit-scrollbar-thumb {
+        background: #EDD000;
+        
+    }
 `;
 
 export const Title = styled.div`
@@ -50,6 +62,7 @@ export const Description = styled.div`
         font-family: 'Roboto Bold', sans-serif;
         font-weight: bold;
     }
+
 `;
 
 export const BoxGrid = styled.div`

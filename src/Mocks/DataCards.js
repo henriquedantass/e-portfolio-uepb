@@ -9,10 +9,12 @@ const DataCards = [
   {
     title: 'Quiz',
     icone: images.quiz,
+    to: '/Quiz'
   },
   {
     title: 'Resenha Critica',
     icone: images.resume,
+    to: '/Resenhas'
   },
 ];
 

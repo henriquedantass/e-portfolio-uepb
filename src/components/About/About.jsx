@@ -12,7 +12,7 @@ import {
 } from './styles';
 import {Navigation} from '../Navigation/Nagivation';
 import * as images from '../../assets';
-import DataAbout from '../../Mocks/DataAbout';
+import DataAbout from '../../Mocks/DataAbout';                                        
 import Modal from 'react-modal';
 import { useState } from 'react';
 
@@ -70,7 +70,7 @@ export const About = () => {
           right: 'auto',
           bottom: 'auto',
           marginRight: '-50%',
-          width: '500px',
+          width: '700px',
           transform: 'translate(-50%, -50%)',
           backgroundColor: 'transparent',
           border: '0',
