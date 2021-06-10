@@ -36,6 +36,9 @@ export const ContainerContent = styled.div`
 `;
 
 export const Description = styled.div`
+    height: 100%;
+    overflow-y: auto;
+    padding: 0 1rem;
     p {
         font-size: 18px;
         margin-bottom: 10px;

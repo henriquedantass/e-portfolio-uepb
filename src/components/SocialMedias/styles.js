@@ -56,8 +56,8 @@ export const Item = styled.div`
 
 
 export const BoxSection = styled.div`
-  display: grid;
   grid-template-columns: 1fr 1fr;
+  display: ${props => (props.isVideo? 'flex' : 'grid')};
   align-items: center;
   justify-items:center;
   color: white;
@@ -133,15 +133,17 @@ export const Title = styled.div`
   justify-content: flex-start;
   align-items: center;
 
-  h2 {
+ span {
     color:white;
     letter-spacing: 1px;
+    white-space: nowrap;
+    font-size: 20px;
+    font-weight: bold;
   }
 
   img {
     width: 35px;
     height: 35px;
-    cursor: pointer !important;
-    z-index: 999999;
+
   }
 `

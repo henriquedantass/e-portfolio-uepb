@@ -26,9 +26,16 @@ import site1 from './images/site1.png'
 import site2 from './images/site2.png'
 import site3 from './images/site3.png'
 import site4 from './images/site4.png'
-
+import video1 from './images/video1.png'
+import video2 from './images/video2.png'
+import video3 from './images/video3.png'
+import video4 from './images/video4.png'
 
 export {
+    video1,
+    video2,
+    video3,
+    video4,
     site1,
     site2,
     site3,

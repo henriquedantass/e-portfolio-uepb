@@ -74,10 +74,10 @@ export const Medias = () => {
           >
             {item.data.map(content => (
             <>
-              <BoxSection>
+              <BoxSection isVideo={item.video}>  
                 <Infos>
                   <Title>
-                  <h2>{content.title}</h2>
+                  <span>{content.title}</span>
                   <a href={content.link} target="_blank"> <img src={item.icone} alt="icone" /> </a>
                  </Title>  
                   <p>{content.description}</p>

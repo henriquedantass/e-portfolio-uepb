@@ -3,32 +3,35 @@ import * as images from '../assets';
 const DataMedias = [
   {
     id: 1,
-    brand: 'Facebook',
+    brand: 'Youtube',
     icone: images.youtube,
     data: [
         {
-          title: 'Lorem Ipsum',
+          brand: 'Youtube',
+          title: 'Professora Adriana',
+          link: 'https://www.youtube.com/c/ProfessoraAdrianaFigueiredo/',
           description:
-            'Sem contar a badge exclusiva, a nova grade e os detalhes cromados.',
-          image: images.instagram1,
+            'Canal do YouTube de uma professora de português, contendo vídeos aulas com dicas sobre escrita, em especial para concurso público.',
+          image: images.video1,
         },
         {
-            title: 'Lorem Ipsum',
+            title: 'Redação e gramática zica',
+            link: 'https://www.youtube.com/c/redacaoegramatica',
             description:
-              'Sem contar a badge exclusiva, a nova grade e os detalhes cromados.',
-            image: images.instagram2,
+              'Canal do YouTube de uma professora de português, contendo vídeos aulas sobre gramática e redação.',
+            image: images.video2,
         },
         {
-          title: 'Lorem Ipsum',
+          title: 'Redatorres',
           description:
-            'Sem contar a badge exclusiva, a nova grade e os detalhes cromados.',
-          image: images.instagram3,
+            'Canal do YouTube de um professor de redação, contendo vídeos aulas com dicas sobre escrita.',
+          image: images.video3,
         },
         {
-            title: 'Lorem Ipsum',
+            title: 'GramáticaEmVideo',
             description:
-              'Sem contar a badge exclusiva, a nova grade e os detalhes cromados.',
-            image: images.instagram4,
+              'Canal do YouTube de um professor de português, contendo vídeos aulas com dicas sobre gramática e ortografia.',
+            image: images.video4,
         },
     ],
   },
