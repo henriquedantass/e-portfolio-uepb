@@ -18,6 +18,7 @@ export const Resume = () => {
                     <>
                     <h1>{item.title}</h1>
                     <p>{item.description}</p>
+                    <a href={item.link} target="_blank" rel="noreferrer">link para o podcast</a>
                     <span>{item.actor}</span>
                     </>
             </Content>

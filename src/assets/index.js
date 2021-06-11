@@ -51,8 +51,16 @@ import fichamentopython from './docs/fichamentopython.pdf';
 import fichamentowinx from './docs/fichamentowinx.pdf';
 import fichamentolegacy from './docs/fichamentolegacy.pdf';
 import fichamentocerebros from './docs/fichamentocerebros.pdf';
+import templatecobra from './docs/template1.pdf';
+import templatecerebro from './docs/template2.pdf';
+import templatewinx from './docs/template3.pdf';
+import templatelegacy from './docs/template4.pdf';
 
 export {
+    templatelegacy,
+    templatecobra,
+    templatewinx,
+    templatecerebro,                                            
     fichamento,
     fichamentocerebros,
     fichamentolegacy,

@@ -52,8 +52,9 @@ const DataResume = [
     {
         title: 'Semana 10 - 5 de maio de 2021',
         description:
-        'Formato do resumo: podcast Link: https://anchor.fm/vanderleia-lucena/episodes/Resumo-e119qfv.',
-        actor: 'Aluno(a): Vanderleia de Lucena Pereira'
+        'Formato do resumo: podcast',
+        actor: 'Aluno(a): Vanderleia de Lucena Pereira',
+        link: 'https://anchor.fm/vanderleia-lucena/episodes/Resumo-e119qfv'
     },
     {
         title: 'Semana 11 - 12 de maio de 2021',
@@ -62,7 +63,7 @@ const DataResume = [
         actor: 'Aluno(a): Pablo de Melo Rodrigues '
     },
     {
-        title: 'Semana 12 - 19 de maio',
+        title: 'Semana 12 - 19 de maio de 2021',
         description:
         'A professora começou a aula falando sobre conectivos. Apontou algumas dificuldades da turma, sendo elas, uso de vírgulas,utilização de concordância nominal e verbal e coesão.    Comentou também sobre a entrega da autoavaliação, frisando que os alunos deveriam ser verdadeiros na avaliação.Ensinou para turma a utilização de título no texto, ressaltando que o título é um convite para o leitor, pensar no tema na possibilidade de resumir a ideia principal do texto.Fez uma brincadeira com a turma, a brincadeira consistia em extrair conectivos de um trabalho qualquer e pôr num arquivo compartilhado do classroom.A aula foi lecionada de modo descontraído e objetivo, com conselhos e dicas importantes que a professora nos deu, infelizmente contou com uma saída da professora por problemas de internet.',
         actor: 'Aluno(a): Matheus Leite Abreu '
@@ -74,7 +75,7 @@ const DataResume = [
     actor: 'Aluno(a): Marcelo Henrique Pereira Vieira'
     },
     {
-    title: 'Semana 13 - 27 de maio',
+    title: 'Semana 13 - 27 de maio de 2021',
     description:
     'A aula iniciou-se com a professora explicando como funciona a autoavaliação, e como fazer para calcular a média final.Segundo ela, foi um dos períodos mais difíceis, pois o período foi encurtado e não deu para fazer tudo como planejado.A professora explicou como funcionam os resumos das aulas no e-portfólio, editando e inserindo como um diário de aulas.Também foi explicado sobre os links que devem ser inclusos, de canais no YouTube e perfis de estudo do Instagram sobre leitura e produção de texto.Foi colocado no Google Classroom toda explicação de como organizar o e-portfólio, também foi mostrado como exemplo o site "ERROR 404", criado por alguns alunos. Embora ainda que muito cansativo, terminamos o período bem!',
     actor: 'Aluno(a): Wilami Dutra Gomes Filho'

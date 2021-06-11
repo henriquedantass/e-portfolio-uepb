@@ -46,6 +46,7 @@ export const Content = styled.div`
     h1 {
         font-size: 25px;
         margin-bottom: 20px;
+
     }
 
     p {
@@ -60,6 +61,9 @@ export const Content = styled.div`
 
     }
 
+    a {
+        margin-left: 80px;
+    }
     
 
 
