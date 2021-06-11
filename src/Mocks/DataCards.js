@@ -13,14 +13,15 @@ const DataCards = [
   },
   {
     title: 'Resenha Critica',
-    icone: images.resume,
-    to: '/Resenhas'
-  },
-  {
-    title: 'Fichamentos',
     icone: images.fichamento,
     to: '/Fichamentos'
   },
+  {
+    title: 'Fichamento',
+    icone: images.resume,
+    to: '/Resenhas'
+  },
+
 ];
 
 export default DataCards;

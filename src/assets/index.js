@@ -41,15 +41,27 @@ import doc3 from './docs/doc3.pdf';
 import doc4 from './docs/doc4.pdf';
 import resenha1 from './docs/resenha1.pdf';
 import resenha2 from './docs/resenha2.pdf';
+import resenha3 from './docs/resenha3.pdf';
+import resenha4 from './docs/resenha4.pdf';
 import iconeCritica from './icons/iconeCritica.svg';
 import quiz1 from './images/quiz1.png';
 import choose from './icons/choose.svg'
 import fichamento from './icons/fichamento.svg';
+import fichamentopython from './docs/fichamentopython.pdf';
+import fichamentowinx from './docs/fichamentowinx.pdf';
+import fichamentolegacy from './docs/fichamentolegacy.pdf';
+import fichamentocerebros from './docs/fichamentocerebros.pdf';
 
 export {
+    fichamento,
+    fichamentocerebros,
+    fichamentolegacy,
+    fichamentowinx,
+    fichamentopython,
     resenha1,
     resenha2,
-    fichamento,
+    resenha3,
+    resenha4,
     quiz1,
     choose,
     iconeCritica,

@@ -4,7 +4,7 @@ const DataFichamentos = [
   {
     title: 'Aluno(a): José Carlos Gambarra Júnior',
     image: images.fichamento,
-    description: 'A dualidade entre a conspiração e o fato',      
+    description: 'Titulo: A dualidade entre a conspiração e o fato',      
     download: images.resenha2,
     doc: true,
     
@@ -12,22 +12,24 @@ const DataFichamentos = [
   {
     title: 'Aluno(a): Rebeca Barbosa Lourenço',
     image: images.fichamento,
-    description: 'Desenvolvendo um novo olhar sobre a vida',
+    description: 'Titulo: Desenvolvendo um novo olhar sobre a vida',
     download: images.resenha1,
     doc: true,
 
   },
   {
-    title: 'Winx Club',
+    title: 'Aluno(a): Ellen Santos Ramalho',
     image: images.fichamento,
-    download: images.doc3,
+    description: 'Título: Jogos e garotos',
+    download: images.resenha3,
     doc: true,
 
   },
   {
-    title: 'THE LEGACY',
+    title: 'Aluno(a): Emilly Santos Ramalho',
     image: images.fichamento,
-    download: images.doc4,
+    description: 'Titulo: Aceitar o seu destino, é a melhor forma deser feliz',
+    download: images.resenha4,
     doc: true,
 
   }

@@ -17,7 +17,7 @@ export const Resenha = () => {
             </Link>
             <Title>
                 <img src={images.resume} alt='Icone'/>
-                <span className='typing-animation'>RESENHA CRITICA</span>
+                <span className='typing-animation'>FICHAMENTO</span>
             </Title>
             <CarouselComponent data={DataResenha}/>
         </Container>

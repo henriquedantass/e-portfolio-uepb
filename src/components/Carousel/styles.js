@@ -46,7 +46,7 @@ export const BoxContent = styled.div`
 
 export const BoxImage = styled.div`    
     img {
-        width: 200px;
+        width: 350px;
         height: 350px;
         margin-top: -20px;
     }
