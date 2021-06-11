@@ -26,6 +26,7 @@ export const Title = styled.div`
     h1 {
         font-weight: bold;
         border-bottom: 2px solid yellow;
+        font-size: 26px;
     }
     img {
         width: 50px;

@@ -14,7 +14,7 @@ export const Resume = () => {
             </Title>
             {DataResume.map( item => (
 
-            <Content>
+            <Content className='container'>
                     <>
                     <h1>{item.title}</h1>
                     <p>{item.description}</p>

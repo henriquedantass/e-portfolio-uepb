@@ -3,7 +3,7 @@ const DataLearned = [
   {
     title: ' - Henrique Dantas',
     description:
-    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s'
+    'Durante a disciplina eu consegui absorver bastante conhecimento a respeito da produção textual. Dessa forma foi necessário aprender sobre as normas da ABNT e escrever conforme as regras. Com certeza será um aprendizado que levarei sempre comigo durante todo o restante do curso.',
   },
   {
     title: ' - José Júnior',
@@ -18,7 +18,7 @@ const DataLearned = [
   {
     title: ' - Valnez Ferreira',
     description:
-    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s'
+    'Ao decorrer da disciplina de Leitura e Produção de texto, refleti sobre a importância do conhecimento em produção textual e leitura efetiva para o meio acadêmico. Com a execução dos trabalhos ao longo do semestre, relembrei conceitos e definições de tipos textuais e reforcei meus conhecimentos e habilidade de produzir bons textos. Além disso, pude desenvolver uma boa relação com meus colegas de grupo através dos desafios propostos pela professora Rosângela.',
   },
 ];
 

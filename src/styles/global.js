@@ -16,6 +16,17 @@ const GlobalStyle = createGlobalStyle`
     overflow-x: hidden;
     scroll-behavior: smooth;
     font-family: 'Roboto Regular', sans-serif;
+
+    ::-webkit-scrollbar-track {
+      background-color: #F4F4F4;
+    }
+    ::-webkit-scrollbar {
+      width: 6px;
+      background: #EDD000;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #EDD000;
+    }
   }
 
   ul {

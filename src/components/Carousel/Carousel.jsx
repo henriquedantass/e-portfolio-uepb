@@ -7,7 +7,7 @@ export const CarouselComponent = ({data}) => {
     const renderArrow = direction => onClickHandler => {
         const styles = {
           position: 'absolute',
-          top: '75%',
+          top: '65%',
           zIndex: 2,
           background: 'transparent',
         };
@@ -55,9 +55,10 @@ export const CarouselComponent = ({data}) => {
                         <BoxContent>
                             <h3>{item.title}</h3>
                             <p>{item.description}</p>
+                            <button><a href={item.download} download>Clique para baixar</a></button>
                         </BoxContent>
                         <BoxImage>
-                            <img src={item.icone} alt="Logo" />
+                            <img src={item.image} alt="Logo" />
                         </BoxImage>
                     </Box>
                     )

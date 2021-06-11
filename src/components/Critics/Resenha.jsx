@@ -1,21 +1,25 @@
 import React from 'react';
 import { Navigation } from '../Navigation/Nagivation';
-import { Container, Title } from './styles';
+import { Container, Title, Return } from './styles';
 import * as images from '../../assets';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import DataMaps from '../../Mocks/DataMaps';
+import DataResenha from '../../Mocks/DataResenha';
 import {CarouselComponent} from '../Carousel/Carousel';
+import { Link } from 'react-router-dom';
 
 
 export const Resenha = () => {
     return (
         <Container>
             <Navigation/>
+            <Link to='/Trabalhos'>
+            <Return src={images.backhome}/>
+            </Link>
             <Title>
                 <img src={images.resume} alt='Icone'/>
                 <span className='typing-animation'>RESENHA CRITICA</span>
             </Title>
-            <CarouselComponent data={DataMaps}/>
+            <CarouselComponent data={DataResenha}/>
         </Container>
     )
 

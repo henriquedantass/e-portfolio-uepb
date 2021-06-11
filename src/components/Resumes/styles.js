@@ -2,6 +2,17 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     padding: 2rem 5rem;
+    .container::-webkit-scrollbar-track {
+        background-color: #F4F4F4;
+    }
+    .container::-webkit-scrollbar {
+        width: 6px;
+        background: #EDD000;
+    }
+    .container::-webkit-scrollbar-thumb {
+        background: #EDD000;
+        
+    }
 
 `;
 
@@ -48,5 +59,8 @@ export const Content = styled.div`
         margin-top: 10px;
 
     }
+
+    
+
 
 `;

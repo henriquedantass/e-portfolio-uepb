@@ -3,46 +3,57 @@ import { Carousel as CarouselContainer} from 'react-responsive-carousel';
 
 
 export const Carousel = styled(CarouselContainer)`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 1000px;
-    margin: 0 auto;
-    
-    .carousel-slider {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 300px;
-    }
 `;
 
 export const Box = styled.div`
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    
+    grid-template-columns: 1fr 1fr;    
+    padding: 3rem 0;
+   
 `;
 
 export const BoxContent = styled.div`
     padding: 0 5rem;
     text-align: left;
+
+    h3 {
+        margin-bottom: 10px;
+    }
+
     p {
         margin-bottom: 20px;
     }
 
+    button {
+        padding: 1rem 2rem;
+        border-radius: 4px;
+        background-color: transparent;
+        border: 1px solid #EDD000;
+        color: white;
+        transition: 0.5s all;
+
+        &:hover {
+            border: 2px solid #EDD000;
+        }
+
+        a {
+            color: white;
+        }
+    }
+
 `;
 
-export const BoxImage = styled.div`
+export const BoxImage = styled.div`    
     img {
-        widht: 200px;
-        height: 200px;
+        width: 200px;
+        height: 350px;
+        margin-top: -20px;
     }
 `;
 
 
 export const Container = styled.div`
-    padding: 1rem 4rem;
+    padding: 2rem 4rem;
 `;
 
 export const Title = styled.div`
@@ -54,7 +65,6 @@ export const Title = styled.div`
     img {
         widht: 50px;
         height: 50px;
-        margin-right: 20px;
     }
 
     span {

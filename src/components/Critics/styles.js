@@ -3,6 +3,12 @@ import styled from 'styled-components';
 export const Container = styled.div`
     padding: 1rem 4rem;
 `;
+export const Return = styled.img`
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 50%;
+`;
 
 export const Title = styled.div`
     display: flex;

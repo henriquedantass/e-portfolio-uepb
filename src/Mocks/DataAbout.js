@@ -11,7 +11,7 @@ const DataAbout = [
   {
     title: 'Henrique Dantas',
     description: 
-    ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,',
+    'Sou estudante de Ciências da Computação, atualmente estou trabalhando como desenvolvedor web em uma startup de pequeno porte. Criei a paixão pelo código durante a pandemia a qual passei grande parte em casa estudando.',
     age: '21 anos',
     icone: images.galegofoto,
   },
@@ -25,7 +25,7 @@ const DataAbout = [
   {
     title: 'Valnez Ferreira',
     description: 
-    ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,',
+    ' Sou estudante de Ciências da computação e cresci na cadeira de um computador. Venho estudando tecnologias como Python, HTML, CSS, C# e Unity(para desenvolvimento de jogos). Meu objetivo na área é me tornar um desenvolvedor front-end, trabalhar com desenvolvimento de aplicações ou com desenvolvimento web.',
     age: '22 anos',
     icone: images.valnezfoto,
   },

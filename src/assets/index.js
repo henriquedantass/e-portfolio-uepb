@@ -1,3 +1,7 @@
+import mapa1 from './images/mindMaps/mapamental1.png';
+import mapa2 from './images/mindMaps/mapamental2.png';
+import mapa3 from './images/mindMaps/mapamental3.png';
+import mapa4 from './images/mindMaps/mapamental4.png';
 import mindMap from './icons/mindMap.svg'
 import quiz from './icons/quiz.svg'
 import resume from './icons/resume.svg'
@@ -30,8 +34,28 @@ import video1 from './images/video1.png'
 import video2 from './images/video2.png'
 import video3 from './images/video3.png'
 import video4 from './images/video4.png'
+import backhome from './images/undo.svg'
+import doc1 from './docs/doc1.pdf';
+import doc2 from './docs/doc2.pdf';
+import doc3 from './docs/doc3.pdf';
+import doc4 from './docs/doc4.pdf';
+import iconeCritica from './icons/iconeCritica.svg';
+import quiz1 from './images/quiz1.png';
+import choose from './icons/choose.svg'
 
 export {
+    quiz1,
+    choose,
+    iconeCritica,
+    doc1,
+    doc2,
+    doc3,
+    doc4,
+    mapa1,
+    mapa2,
+    mapa3,
+    mapa4,
+    backhome,
     video1,
     video2,
     video3,
