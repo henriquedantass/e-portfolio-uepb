@@ -69,7 +69,7 @@ const DataResume = [
         actor: 'Aluno(a): Matheus Leite Abreu '
     },
     {
-    title: 'Semana 10 - 5 de maio de 2021',
+    title: 'Semana 12 - 5 de maio de 2021',
     description:
     'A aula iniciou com a professora definindo a data de entrega do E-portfólio.Logo em seguida, ela deu continuidade fazendo uma análise nos trabalhos que abordava uma lista de conectivos, nesse trabalho deveria ser retirado 5 conectivos do artigo escolhido na aula anterior.Apresentou a BDTD uma plataforma que oferece a introdução à Visibilidade às teses e dissertações Brasileiras, fazendo disso uma maneira mais fácil de obter acesso a trabalhos publicados.Demonstrou uma forma de fazer edições em pdf.Logo após a elaboração do trabalho de conectivos, houve uma explicação de como seria o desenvolvimento do E-portfólio. O e-portfólio consiste em ter  uma quantidade de até 5 integrantes, explica a elaboração da capa do site para o E-portfólio, podendo ser adicionado uma página no site obtendo informações sobre os integrantes (Sobre nós), contendo foto e um pouco sobre os integrantes, uma página com resumos das aulas e mais uma aba com todos os trabalhos desenvolvidos em meio ao semestre.A avaliação do E-portfólio vai ser baseada em: ( Layout, criatividade, uso de imagens, escrita, título, referências ABNT e seguir o roteiro.',
     actor: 'Aluno(a): Marcelo Henrique Pereira Vieira'
