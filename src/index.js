@@ -10,6 +10,7 @@ import { Resume } from './components/Resumes/Resumes';
 import { Medias } from './components/SocialMedias/Medias';
 import { Quiz } from './components/Quiz/Quiz';
 import { Resenha } from './components/Critics/Resenha';
+import { Fichamento } from './components/Fichamento/Fichamento';
 import App from './App';
 import GlobalStyle from "./styles/global";
 
@@ -26,7 +27,7 @@ ReactDOM.render(
     <Route exact path='/Listas' component={Medias}/>
     <Route exact path='/Quiz' component={Quiz}/>
     <Route exact path='/Resenhas' component={Resenha}/>
-
+    <Route exact path='/Fichamentos' component={Fichamento}/>
   </Switch>
   <GlobalStyle/>
  </BrowserRouter>,

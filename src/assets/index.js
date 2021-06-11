@@ -39,11 +39,17 @@ import doc1 from './docs/doc1.pdf';
 import doc2 from './docs/doc2.pdf';
 import doc3 from './docs/doc3.pdf';
 import doc4 from './docs/doc4.pdf';
+import resenha1 from './docs/resenha1.pdf';
+import resenha2 from './docs/resenha2.pdf';
 import iconeCritica from './icons/iconeCritica.svg';
 import quiz1 from './images/quiz1.png';
 import choose from './icons/choose.svg'
+import fichamento from './icons/fichamento.svg';
 
 export {
+    resenha1,
+    resenha2,
+    fichamento,
     quiz1,
     choose,
     iconeCritica,

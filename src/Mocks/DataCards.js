@@ -16,6 +16,11 @@ const DataCards = [
     icone: images.resume,
     to: '/Resenhas'
   },
+  {
+    title: 'Fichamentos',
+    icone: images.fichamento,
+    to: '/Fichamentos'
+  },
 ];
 
 export default DataCards;

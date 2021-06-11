@@ -55,6 +55,7 @@ export const BoxImage = styled.div`
 
 export const Container = styled.div`
     padding: 2rem 4rem;
+    width: 1200px;
 `;
 
 export const Title = styled.div`
