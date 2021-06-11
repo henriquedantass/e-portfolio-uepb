@@ -23,12 +23,14 @@ const DataMedias = [
         },
         {
           title: 'Redatorres',
+          link: 'https://www.youtube.com/channel/UC2nwXYN11CPodLrsd2w9IDw',
           description:
             'Canal do YouTube de um professor de redação, contendo vídeos aulas com dicas sobre escrita.',
           image: images.video3,
         },
         {
             title: 'GramáticaEmVideo',
+            link: 'https://www.youtube.com/user/professorfabioalves',
             description:
               'Canal do YouTube de um professor de português, contendo vídeos aulas com dicas sobre gramática e ortografia.',
             image: images.video4,

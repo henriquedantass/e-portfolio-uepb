@@ -55,7 +55,9 @@ export const CarouselComponent = ({data}) => {
                         <BoxContent>
                             <h3>{item.title}</h3>
                             <p>{item.description}</p>
+                            {item.doc ? (
                             <button><a href={item.download} download>Clique para baixar</a></button>
+                            ) : null}
                         </BoxContent>
                         <BoxImage>
                             <img src={item.image} alt="Logo" />

@@ -71,6 +71,7 @@ export const Medias = () => {
             autoPlay={false}
             renderArrowPrev={renderArrow('prev')}
             renderArrowNext={renderArrow('next')}
+            infiniteLoop={true}
           >
             {item.data.map(content => (
             <>
@@ -83,7 +84,10 @@ export const Medias = () => {
                   <p>{content.description}</p>
                 </Infos>
                 <Design>
-                  <img src={content.image} alt="Design" />
+                <a href={content.link} target="_blank" rel="noreferrer"> 
+                <img src={content.image} alt="Design" />
+                </a>
+
                 </Design>
               </BoxSection>
             </>

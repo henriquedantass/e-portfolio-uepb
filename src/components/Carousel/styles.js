@@ -14,6 +14,7 @@ export const Box = styled.div`
 
 export const BoxContent = styled.div`
     padding: 0 5rem;
+    margin-top: -30px;
     text-align: left;
 
     h3 {

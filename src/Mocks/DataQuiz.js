@@ -14,14 +14,14 @@ const DataQuiz = [
 
   },
   {
-    title: 'Aryogrupo ',
-    description: 'O Aryogrupo utilizou o Kahoot! para realizar mais um quizz para entregar as dicas, que também foi respondido em sala de aula pelos alunos.',
+    title: 'Os Cérebros',
+    description: 'Os Cérebros utilizou o Kahoot! para realizar mais um quizz para entregar as dicas, que também foi respondido em sala de aula pelos alunos.',
     image: images.choose,
 
   },
   {
-    title: 'Grupo4',
-    description: 'lorem',
+    title: 'The Legacy',
+    description: 'Por fim, o grupo The Legacy também utilizou o Kahoot! para promover um quiz à turma, proporcionando interação em sala.',
     image: images.choose,
   }
 ];
